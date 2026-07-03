@@ -11,7 +11,7 @@ export default function Job() {
   return (
     <div>
         <Navbar></Navbar>
-        <div className="bg-[#f9fafb]   pt-8">
+        <div className="bg-[#f9fafb]   py-8">
           <header className=" " >
           <Image className="w-full object-cover h-auto" src="/careers_header.jpg" alt="Header Image " width={1920} height={600} />
         </header>
@@ -36,7 +36,7 @@ export default function Job() {
               </div>
               <p className="text-[#1469bb] items-center flex gap-1 cursor-pointer font-bold">View & Apply <BsArrowRight/></p>
             </div>
-            <div onClick={()=>router.push(`/job`)} className="flex  rounded-xl border-1 border-[#dfe5ed] hover:border-[#1469bb] p-4 items-center justify-between   bg-white ">
+            <div onClick={()=>router.push(`/job/jobDetails`)} className="flex  rounded-xl border-1 border-[#dfe5ed] hover:border-[#1469bb] p-4 items-center justify-between   bg-white ">
               <div className="flex flex-col items-start">
                 <h1 className="font-bold ">Front end developer</h1>
                 <div className="flex text-[#6a7282] items-center gap-4 ">
